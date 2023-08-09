@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">SMS Sender</string>
+=======
+    <string name="app_name">SMSSender</string>
+>>>>>>> 10c3273 (Initial project)
 </resources>
