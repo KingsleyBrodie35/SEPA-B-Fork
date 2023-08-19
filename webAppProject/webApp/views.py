@@ -4,5 +4,8 @@ from django.shortcuts import render, HttpResponse
 def home(request):
     return render(request, "home.html")
 
-def map_view(request):
+def mapView(request):
     return render(request, "map.html")
+
+def addCustomerView(request):
+    return render(request, "addCustomer.html")

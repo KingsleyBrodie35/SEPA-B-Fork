@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    background-color: #636bda;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove any default padding */
+    display: flex;
+    font-size: 24px;
+}
+nav li {
+    margin-right: 20px; 
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set link color */
+    font-weight: bold; /* Set link text to bold */
+    transition: color 0.3s ease; /* Add smooth color transition */
+}
+
+nav a:hover {
+    color: #ACB1EC; /* Change link color on hover */
+}
+
+
+.pHome {
+    font-size: 16px;
+}

@@ -1,13 +1,18 @@
+<!--render static files-->
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>{% block title %}Default Title{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'CSS/main.css' %}">
 </head>
 <body>
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/map/">Map</a></li>
+            <li><a href="/addCustomer/">Add Customer</a></li>
             <!-- Add more links as needed -->
         </ul>
     </nav>
